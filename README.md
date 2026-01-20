@@ -1,22 +1,23 @@
-# sailwave_sailing_competition_results
-This Jupyter Notebook retrieves official sailing race results from a Sailwave HTML page and automatically generates a clean, static HTML report with consolidated classifications. 
+# Sailing Results HTML Generator (ILCA 4 & ILCA 6)
 
-The script:
+This project retrieves official sailing race results published in Sailwave format and automatically generates a clean, static HTML report with consolidated classifications.
 
-Scrapes the original results tables directly from the event website (ILCA 4 and ILCA 6 competitions)
+## Features
 
-Preserves the original tables for reference
+- Scrapes official Sailwave result tables directly from the event website
+- Supports multiple competitions (ILCA 4 and ILCA 6)
+- Preserves original official tables for reference
+- Computes:
+  - Individual rankings by division (age category)
+  - Individual rankings by yacht club
+  - Collective club rankings (Top N sailors per club)
+  - Overall club ranking across competitions
+- Highlights Top 3 positions visually
+- Generates a single navigable HTML page with internal links
+- Uses an external CSS stylesheet for easy customization
+- Output is fully static and works offline
 
-Computes individual rankings by division (age category), ordered by nett points
+## Output
 
-Computes collective rankings by yacht club
+The generated HTML file is saved to the `output/` directory:
 
-Highlights the top 3 positions in each ranking
-
-Organizes all results into a single navigable HTML page with internal links
-
-Separates ILCA 4 and ILCA 6 sections visually
-
-Exports the final report as a standalone HTML file with an external CSS stylesheet
-
-The output is a static, offline-ready HTML page suitable for publication, archiving, or sharing with clubs and athletes.
