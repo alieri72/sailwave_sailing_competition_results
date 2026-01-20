@@ -1,11 +1,11 @@
-# Sailing Results HTML Generator (ILCA 4 & ILCA 6)
+# Sailing Results HTML Generator
 
 This project retrieves official sailing race results published in Sailwave format and automatically generates a clean, static HTML report with consolidated classifications.
 
 ## Features
 
 - Scrapes official Sailwave result tables directly from the event website
-- Supports multiple competitions (ILCA 4 and ILCA 6)
+- Supports multiple competitions (ILCA 4 and ILCA 6, but can be changed )
 - Preserves original official tables for reference
 - Computes:
   - Individual rankings by division (age category)
