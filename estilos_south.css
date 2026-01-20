@@ -1,0 +1,43 @@
+body {font-size: 8pt; font-family: verdana, arial, helvetica, sans-serif; text-align: center;}
+.hardleft  {text-align: left; float: left;  margin: 15px 0  15px 25px;}
+.hardright {text-align: right; float: right; margin: 15px 25px 15px 0;}
+table {margin: 0px auto 30px auto; font-size: 1em; border-collapse: collapse; border: 1px #fff solid;}
+td, th {padding: 3px; border: 1px #fff solid; vertical-align: top;}
+.caption {color: navy; text-align: center; padding: 3px; font-weight: bold;}
+h1 {font-size: 1.6em;}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.2em; color: #000066;}
+p {text-align: center;}
+th {background-color: #0055aa; color: #ffffff;}
+a {color: navy;}
+.contents {text-align: left; margin-left: 20%;}
+.summarytable {text-align: right; background-color: #ffcc00;}
+.racetable {text-align: right; background-color: #ffcc00;}
+.prizestable {text-align: right; background-color: #ffcc00;}
+.codestable {text-align: right; background-color: #ffcc00;}
+.rank {background-color: #ccccff;} 
+.race {background-color: #ffffcc;} 
+.natflag {border: 1px #999 solid;}
+.nattext {font-size: 0.8em;}
+.place1 {font-weight: bold; background-color: #ffffaa;}
+.place2 {font-weight: bold; background-color: #aaaaff;}
+.place3 {font-weight: bold; background-color: #ffaaaa;}
+.placen {}
+/* Linhas alternadas */
+.even {
+    background-color: #ffd966;
+}
+
+.odd {
+    background-color: #ffcc00;
+}
+#ilca4 {
+    background-color: white;  /* azul escuro, por exemplo */
+    padding: 10px;
+}
+
+#ilca6 {
+    background-color: lightblue;  /* vermelho escuro, por exemplo */
+    padding: 10px;
+}
+
