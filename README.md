@@ -14,7 +14,7 @@ This project retrieves official sailing race results published in Sailwave forma
   - Overall club ranking across competitions
 - Highlights Top 3 positions visually
 - Generates a single navigable HTML page with internal links
-- Uses an external CSS stylesheet for easy customization
+- Uses an external CSS stylesheet for easy customization (v2 has css included is script)
 - Output is fully static and works offline
 
 ## Output
